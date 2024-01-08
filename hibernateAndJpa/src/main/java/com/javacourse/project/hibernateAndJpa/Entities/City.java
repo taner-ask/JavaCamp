@@ -3,7 +3,7 @@ package com.javacourse.project.hibernateAndJpa.Entities;
 import jakarta.persistence.*;
 
 @Entity
-@Table
+@Table(name="city")
 public class City {
 	
 	@Id
